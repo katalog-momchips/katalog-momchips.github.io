@@ -75,6 +75,12 @@ body {
   font-size: 35px;
   margin-left: 20px;
 }
+#image1 {
+  width: 290px;
+  height: 170px;
+  margin-top: -200px;
+  margin-bottom: -500px;
+}
 /*Utility */
 .tombol {
   text-transform: uppercase;
@@ -239,7 +245,12 @@ body {
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
     font-weight: bolder;
   }
-
+  #image1 {
+    width: 350px;
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: -300px;
+  }
   .nav-link:hover::after {
     content: "";
     display: block;
