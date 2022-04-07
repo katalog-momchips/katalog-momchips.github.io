@@ -16,6 +16,12 @@ body {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
   font-family: "Times New Roman", Times, serif;
 }
+#text11 {
+    margin-bottom: 40px;
+    line-height: 200%;
+    letter-spacing: 200%;
+    text-align: justify;
+}
 #fab  {
   height: 60px;
   width: 60px;
@@ -35,7 +41,6 @@ body {
   margin-top: 80px;
 }
 #btn {
-  o
   margin-top: 0px;
   margin-left: 0px;
   height:0px;
@@ -88,8 +93,6 @@ body {
     margin-bottom: 20px;
     margin-left: 50px;
 }
-
-
 .sosmed1 {
   background-color: white;
   margin-top: -50px;
@@ -107,9 +110,6 @@ body {
   width: 60px;
 }
 
-j {
-  font-size: 45px;
-}
 #location {
   background-color: #bb0a1e;
   height: 450px;
@@ -142,6 +142,18 @@ j {
   height: 50px;
   text-align: center;
   z-index: 100000;
+}
+  #text {
+    margin-bottom: 15px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+    line-height: 150%;
+  }
+  j {
+  font-size: 30px;
+  font-weight: bold;
 }
 .button {
   size: 10000000px;
@@ -179,7 +191,7 @@ j {
 #image1 {
   width: 290px;
   height: 170px;
-  margin-top: -200px;
+  margin-top: -300px;
   margin-bottom: -500px;
 }
 /*Utility */
@@ -192,7 +204,7 @@ j {
   font-size: 14px;
 }
 .jumbotron {
-  background-image: url(Image/bgmomchips.jpg);
+  background-image: url(Image/photo1649215914a.jpeg);
   background-size: cover;
   height: 546px;
   text-align: center;
@@ -215,10 +227,11 @@ j {
 
 .jumbotron .display-4 {
   color: white;
-  margin-top: 250px;
+  margin-top: 230px;
   font-weight: 100%;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
-  font-size: 35px;
+  font-size: 27px;
+  
 
   font-weight: bold;
 }
@@ -226,7 +239,7 @@ j {
   color: white;
   font-weight: 100%;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
-  font-size: 35px;
+  font-size: 25px;
   margin-bottom: 30px;
   font-weight: bold;
 }
@@ -235,6 +248,10 @@ j {
 }
 
 @media (min-width: 992px) {
+  j {
+  font-size: 40px;
+  font-weight: bold;
+}
   .ig {
     margin-left: 5px;
     font-size: 30px;
@@ -317,9 +334,13 @@ j {
   #text {
     margin-bottom: 25px;
     font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    line-height: 200%;
   }
   #text11 {
     margin-bottom: 25px;
+    line-height: 150%;
+    text-align: center;
   }
   .about {
     background-color: #fff;
@@ -339,14 +360,15 @@ j {
     margin-top: 0px;
   }
   .navbar-collapse {
-    margin-left: -15px;
+    margin-left: -50px;
+    margin-right: 12px;
     margin-top: 0px;
   }
 
   .nav-link {
     color: white !important;
     text-transform: uppercase;
-    margin-right: 40px;
+    margin-right: 45px;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
     font-weight: bolder;
   }
@@ -430,7 +452,10 @@ j {
     height: 58px;
     margin-right: 20px;
   }
-
+  .galeri {
+    margin-left: 0px;
+    width: 1080px;
+  }
   .nav-link {
     text-transform: uppercase;
     margin-left: auto;
