@@ -112,7 +112,7 @@ j {
 }
 #location {
   background-color: #bb0a1e;
-  height: 420px;
+  height: 450px;
 }
 .image {
   background-image: none;
@@ -364,7 +364,7 @@ j {
   .footer {
     background-color: #bb0a1e;
     background-size: cover;
-    height: 200px;
+    height: 400px;
   }
   .jumbotron {
     background-image: url(image/photo1649215914a.jpeg);
