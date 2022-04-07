@@ -581,14 +581,296 @@
         <h1 class="page-section-heading text-center text-uppercase mb-0" style="color: white" >TESTIMONI</h1>
       <br />
       <p></p>
+       <!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Composer -->
+    <!-- Source: https://www.jssor.com/demos/image-gallery.slider/=edit -->
+    <script src="js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
 
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $SpacingX: 5,
+                $SpacingY: 5
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider arrow skin 106 css*/
+        .jssora106 {display:block;position:absolute;cursor:pointer;}
+        .jssora106 .c {fill:#fff;opacity:.3;}
+        .jssora106 .a {fill:none;stroke:#000;stroke-width:350;stroke-miterlimit:10;}
+        .jssora106:hover .c {opacity:.5;}
+        .jssora106:hover .a {opacity:.8;}
+        .jssora106.jssora106dn .c {opacity:.2;}
+        .jssora106.jssora106dn .a {opacity:1;}
+        .jssora106.jssora106ds {opacity:.3;pointer-events:none;}
+
+        /*jssor slider thumbnail skin 101 css*/
+        .jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
+        .jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
+        .jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
+        .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
+        .jssort101 .p:hover{padding:2px;}
+        .jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
+        .jssort101 .p:hover.pdn{padding:0;}
+        .jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
+        .jssort101 .pav .cv {border-color:#fff;opacity:.35;}
+        .jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
+        .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
+        .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:1500px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:240px;width:500px;height:1000px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="testimoni/1649217747433.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747446.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747458.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747470.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747482.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747494.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747507.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747525.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747539.jpg" />
+            </div>
+            <div>
+              <img data-u="image" src="testimoni/1649217747552.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747567.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747581.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747594.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747609.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747627.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747642.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747660.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747674.jpg" />
+            </div>
+            <div>
+              <img data-u="image" src="testimoni/1649217747690.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747709.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747724.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747741.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747768.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747792.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747825.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747854.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747882.jpg" />
+            </div>
+            <div>
+              <img data-u="image" src="testimoni/1649217747921.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747941.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747983.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747983.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217747997.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748011.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748024.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748035.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748046.jpg" />
+            </div>
+            <div>
+              <img data-u="image" src="testimoni/1649217748057.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748066.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748077.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748090.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748101.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748114.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748126.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748137.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748150.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="testimoni/1649217748162.jpg" />
+            </div>
+            
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">web animation</a>
+        <!-- Thumbnail Navigator -->
+                <div data-u="prototype" class="p" style="width:190px;height:30px;">
+                    <div data-u="thumbnailtemplate" class="t"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:162px;left:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:100px;left:150px;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+                <line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:162px;right:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:100px;left:-150px;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+                <line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
       </div>
     </section>
      <section class="page-section portfolio" id="galerry">
       <div class="container">
-          <br><br /><br />
         <!-- Portfolio Section Heading-->
-        <h1 class="page-section-heading text-center text-uppercase mb-0" style="color: white" >GALERI</h1>
+        <h1 class="page-section-heading text-center text-uppercase mb-0" style="color: white; margin-top: -400px;"  >GALERI</h1>
       <br />
       <p></p>
 
@@ -665,31 +947,7 @@
 <!-- About Section-->
  <div class="col-lg-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
 
-            <p class="lead mb-0">
-               <a class="btn text-light btn-social mx-1" href="https://www.tiktok.com/@momchips?is_from_webapp=1&sender_device=pc" target="_blank " id="btn4"><i class="fab fa-sw fa-tiktok" id="fab3"></i><k id="k1">MOMCHIPS</k></a>
-              <br>
-               <a class="btn text-light btn-social mx-1" href="https://shopee.co.id/momchipsofficial" target="_blank " id="btn2"><i class="fab fa-fw fa-shopee" id="fab4"></i><k id="k1">MOMCHIPSOFFICIAL</k></a>
-              <br>
-               <a class="btn text-light  mx-1" href="https://www.tokopedia.com/officialmomchips" target="_blank " id="btn3"><i class="fab fa-fw fa-chrome" id="fab5"></i><k id="k1">OFFICIAL MOMCHIPS</k></a>
-            </p>
-          </div>
-    <footer class="footer text-center " id="location">
-      <div class="container">
-        <div class="row">
-          <!-- Footer Location-->
-          <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right" data-aos-duration="1000">
-            <p class="lead mb-0"><br><br>
-             <a class="btn text-light btn-social mx-1" href="https://momchips.id/" target="_blank " id="btn"><i class="fab fa-fw fa-chrome" id="fab"></i><k id="k">WWW.MOMCHIPS.ID</k></a>
-             <br><br>
-             <a class="btn text-light btn-social mx-1" href="https://web.whatsapp.com/send?phone=6281320769320&text=Hello,%20i%20want%20to%20buy%20Momchips" target="_blank" id="btn"><i class="fab fa-fw fa-whatsapp" id="fab1"></i><k id="k">0813-1170-6355</k></a>
-             <br><br>
-              <a class="btn text-light btn-social mx-1" href="https://instagram.com/momchipsofficial?utm_medium=copy_link" target="_blank" id="btn"><i class="fab fa-fw fa-instagram" id="fab2"></i><k id="k">MOMCHIPSOFFICIAL</k></a>
-            </p>
-          </div>
-          </div>
-          </div>
-         
-          </footer>
+           
 
 
     <!-- Bootstrap core JS-->
