@@ -248,6 +248,12 @@ body {
 }
 
 @media (min-width: 992px) {
+  .video {
+    margin:0 10px 4px 0;
+    float:left;
+    width: 560px;
+    height: 400px;
+  }
   j {
   font-size: 40px;
   font-weight: bold;
@@ -332,9 +338,10 @@ body {
     margin-top: 30px;
   }
   #text {
+    font-size: 30px;
     margin-bottom: 25px;
     font-family: "Times New Roman", Times, serif;
-    text-align: center;
+    text-align: justify;
     line-height: 200%;
   }
   #text11 {
