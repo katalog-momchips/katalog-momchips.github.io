@@ -16,6 +16,23 @@ y {
   font-size: 15px;
   margin-left: 10px;
 }
+.img-fluid1 {
+  width: 150px;
+  height: 150px;
+  margin-left: 60px;
+  margin-bottom: -100px;
+}
+.img-fluid2 {
+  width: 220px;
+  height: 150px !important;
+  margin-left: 30px;
+  margin-bottom: -80px;
+}
+.img-fluid3 {
+  width: 190px;
+  height: 150px !important;
+  margin-left: 40px;
+}
 #text20 {
   text-align: justify;
   font-size: 20px;
@@ -32,7 +49,11 @@ c {
     margin-left: 34px;
   }
   #text1 {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  #text15 {
+    font-size: 15px;
+    line-height: 30px;
   }
 .gabung {
   font-size: 29px;
@@ -47,6 +68,7 @@ c {
 #text11 {
     margin-bottom: 0px;
     font-size: 20px;
+    font-weight: bold;
     line-height: 200%;
     letter-spacing: 200%;
     text-align: justify;
@@ -147,16 +169,16 @@ c {
 .image {
   background-image: none;
   background-size: cover;
-  height: 150px;
-  margin-left: 290px;
-  margin-top: -100px;
+  height: 130px;
+  margin-left: 190px;
+  margin-top: -90px;
 }
 .image1 {
   background-image: none;
   background-size: cover;
-  height: 150px;
-  margin-left: 329px;
-  margin-top: -175px;
+  height: 130px;
+  margin-left: 222px;
+  margin-top: -158px;
 }
 .page-section-heading1 {
   background-color: #bb0a1e;
@@ -179,7 +201,7 @@ c {
     text-align: justify;
     letter-spacing: -0.5px;
     line-height: 150%;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
   j {
@@ -283,8 +305,30 @@ c {
     height: 250px;
   }
 @media (min-width: 992px) {
+  .img-fluid1 {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+ .img-fluid2 {
+  width: 350px !important;
+  height: 250px !important;
+  margin-left: auto;
+  margin-bottom: auto;
+} 
+.img-fluid3 {
+  width: 370px;
+  height: 290px !important;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+  #text15 {
+    font-size: 25px; 
+    line-height: 30px;
+  }
   g {
-    margin-left: 43px;
+    margin-left: 0px;
   }
   .img-fluid2 {
   height: 250px;
@@ -420,10 +464,12 @@ c {
     line-height: 200%;
   }
   #text11 {
-    margin-bottom: 25px;
-    line-height: 150%;
-    text-align: center;
+    margin-bottom: 0px;
     font-size: 30px;
+    font-weight: bold;
+    line-height: 200%;
+    letter-spacing: 200%;
+    text-align: center;
   }
   .about {
     background-color: #fff;
