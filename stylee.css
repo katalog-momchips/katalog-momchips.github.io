@@ -279,7 +279,7 @@ c {
 .video {
     margin:0 10px 4px 0;
     float:left;
-    width: 360px;
+    width: 330px;
     height: 250px;
   }
 @media (min-width: 992px) {
