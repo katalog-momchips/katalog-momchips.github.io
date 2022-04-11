@@ -13,14 +13,14 @@ body {
   text-align: left;
 }
 y {
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 10px;
 }
 #text20 {
   text-align: justify;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
-  line-height: 50px;
+  line-height: 35px;
 }
 c {
   margin-left: 33x;
@@ -49,7 +49,7 @@ c {
     font-size: 20px;
     line-height: 200%;
     letter-spacing: 200%;
-    text-align: center;
+    text-align: justify;
 }
 
 #fab  {
