@@ -18,7 +18,7 @@ y {
 }
 #text20 {
   text-align: justify;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   line-height: 50px;
 }
@@ -183,7 +183,7 @@ c {
     font-weight: bold;
   }
   j {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
 .button {
@@ -279,8 +279,8 @@ c {
 .video {
     margin:0 10px 4px 0;
     float:left;
-    width: 490px;
-    height: 300px;
+    width: 360px;
+    height: 250px;
   }
 @media (min-width: 992px) {
   g {
