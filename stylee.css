@@ -248,6 +248,24 @@ body {
 }
 
 @media (min-width: 992px) {
+  
+  .jumbotron .display-5 {
+  color: white;
+  font-weight: 100%;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.0));
+  position: absolute;
+  bottom: 0;
+}
   .video {
     margin:0 10px 4px 0;
     float:left;
@@ -399,7 +417,7 @@ body {
     background-image: url(image/photo1649215914a.jpeg);
     background-size: cover;
     margin-top: 0px;
-    height: 670px;
+    height: 650px;
   }
 
   .jumbotron .display-4 {
