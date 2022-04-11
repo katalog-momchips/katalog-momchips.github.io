@@ -9,6 +9,31 @@ header.sticky {
 body {
   background-color: #fff;
 }
+#harga {
+  text-align: left;
+}
+y {
+  font-size: 20px;
+  margin-left: 10px;
+}
+#text20 {
+  text-align: justify;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 50px;
+}
+c {
+  margin-left: 33x;
+}
+  z {
+    margin-left: 33px;
+  }
+  g {
+    margin-left: 34px;
+  }
+  #text1 {
+    font-size: 20px;
+  }
 .gabung {
   font-size: 29px;
   margin-top: 40px;
@@ -16,12 +41,17 @@ body {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
   font-family: "Times New Roman", Times, serif;
 }
+.img-fluid2 {
+  height: 250px;
+}
 #text11 {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+    font-size: 20px;
     line-height: 200%;
     letter-spacing: 200%;
-    text-align: justify;
+    text-align: center;
 }
+
 #fab  {
   height: 60px;
   width: 60px;
@@ -118,14 +148,14 @@ body {
   background-image: none;
   background-size: cover;
   height: 150px;
-  margin-left: 340px;
+  margin-left: 290px;
   margin-top: -100px;
 }
 .image1 {
   background-image: none;
   background-size: cover;
   height: 150px;
-  margin-left: 370px;
+  margin-left: 329px;
   margin-top: -175px;
 }
 .page-section-heading1 {
@@ -144,12 +174,13 @@ body {
   z-index: 100000;
 }
   #text {
-    margin-bottom: 15px;
+    margin-bottom: -70px;
     font-family: "Times New Roman", Times, serif;
     text-align: justify;
-    margin-bottom: 10px;
     letter-spacing: -0.5px;
     line-height: 150%;
+    font-size: 30px;
+    font-weight: bold;
   }
   j {
   font-size: 30px;
@@ -204,10 +235,11 @@ body {
   font-size: 14px;
 }
 .jumbotron {
-  background-image: url(Image/photo1649215914a.jpeg);
-  background-size: cover;
-  height: 546px;
-  text-align: center;
+    background-image: url(image/photo1649215914a.jpeg);
+    background-size: cover;
+    margin-top: 0px;
+    height: 530px;
+    text-align: center;
 }
 
 .jumbotron .container {
@@ -231,8 +263,6 @@ body {
   font-weight: 100%;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
   font-size: 27px;
-  
-
   font-weight: bold;
 }
 .jumbotron .display-5 {
@@ -246,9 +276,36 @@ body {
 .jumbotron .display-4 span {
   font-weight: 700;
 }
-
+.video {
+    margin:0 10px 4px 0;
+    float:left;
+    width: 490px;
+    height: 300px;
+  }
 @media (min-width: 992px) {
-  
+  g {
+    margin-left: 43px;
+  }
+  .img-fluid2 {
+  height: 250px;
+  width: auto;
+}
+  #harga {
+  text-align: left;
+}
+  #text1 {
+    font-size: 25px;
+  }
+  x {
+    margin-left: 43px;
+  }
+  #Close {
+  font-size: 30px;
+  margin-left: 400px;
+}
+.close-button {
+  margin-top: 30px;
+}
   .jumbotron .display-5 {
   color: white;
   font-weight: 100%;
@@ -356,7 +413,7 @@ body {
     margin-top: 30px;
   }
   #text {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 25px;
     font-family: "Times New Roman", Times, serif;
     text-align: justify;
@@ -366,6 +423,7 @@ body {
     margin-bottom: 25px;
     line-height: 150%;
     text-align: center;
+    font-size: 30px;
   }
   .about {
     background-color: #fff;
@@ -418,6 +476,7 @@ body {
     background-size: cover;
     margin-top: 0px;
     height: 650px;
+    text-align: center;
   }
 
   .jumbotron .display-4 {
@@ -463,14 +522,19 @@ body {
     background: #bb0a1e;
     margin-top: 0px;
   }
-  .text20 {
-    margin-left: 40px;
-  }
-  y {
-    margin-left: 20px;
-  }
+  #text20 {
+
+  text-align: justify;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 50px;
+}
+y {
+  font-size: 25px;
+  margin-left: 20px;
+}
   z {
-    margin-left: 45px;
+    margin-left: 0px;
   }
   #image {
     width: 90px;
