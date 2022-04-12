@@ -12,35 +12,35 @@ body {
 #ws {
   margin-left: 6px !important;
   margin-top: 10px;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 #ig {
-  margin-left: 10px !important;
+  margin-left: 6px !important;
   margin-top: 10px;
   width: 25px;
   height: 25px;
 }
 #tt {
-  margin-left: 10px !important;
+  margin-left: 6px !important;
   margin-top: 10px;
   width: 25px;
   height: 25px;
 }
 #wa {
   margin-top: 10px;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 #sp {
   margin-top: 10px;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 #tp {
   margin-top: 10px;
-  width: 28px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
 }
 #btnw {
   float: left;
@@ -496,7 +496,7 @@ j {
 .video {
   margin: 0 10px 4px 0;
   float: left;
-  width: 305px;
+  width: 320px;
   height: 250px;
 }
 @media (min-width: 992px) {
