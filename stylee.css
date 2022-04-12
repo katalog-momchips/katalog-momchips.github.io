@@ -12,6 +12,62 @@ body {
 #harga {
   text-align: left;
 }
+.galeri {
+  margin-left: 0px;
+  width: 280px;
+}
+#img {
+  width: 170px;
+  height: 130px;
+  display: block;
+  margin-top: -85px;
+  margin-left: -20px;
+  line-height: 3px;
+}
+#img1 {
+  width: 180px;
+  height: 50px;
+  display: block;
+  margin-top: -80px;
+  margin-left: 120px;
+  margin-right: auto;
+  line-height: 3px;
+}
+#img2 {
+  width: 120px;
+  height: 150px;
+  display: block;
+  margin-top: -10px;
+  margin-left: 0px;
+  line-height: 3px;
+}
+#img3 {
+  width: 110px;
+  height: 60px;
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: auto;
+  line-height: 3px;
+}
+#img4 {
+  width: 200px;
+  height: 80px;
+  display: block;
+  margin-top: -30px;
+  margin-left: 120px;
+  margin-right: auto;
+  line-height: 3px;
+}
+#img5 {
+  width: 90px;
+  height: 70px;
+  display: block;
+  margin-top: 90px;
+  margin-left: 120px;
+  margin-right: auto;
+  line-height: 3px;
+}
 y {
   font-size: 15px;
   margin-left: 10px;
@@ -36,25 +92,43 @@ y {
 #text20 {
   text-align: justify;
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   line-height: 35px;
 }
 c {
   margin-left: 33x;
 }
-  z {
-    margin-left: 33px;
-  }
-  g {
-    margin-left: 34px;
-  }
-  #text1 {
-    font-size: 15px;
-  }
-  #text5 {
-    line-height: 30px;
-    font-size: 15px;
-  }
+z {
+  margin-left: 33px;
+}
+g {
+  margin-left: 34px;
+}
+#ekspedisi {
+  font-size: 20px;
+}
+#text19 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px !important;
+}
+#text1 {
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 25px;
+}
+m {
+  margin-left: 20px;
+}
+#text1x {
+  font-size: 15px;
+  line-height: 25px;
+  margin-left: 20px;
+}
+#text5 {
+  line-height: 30px;
+  font-size: 15px;
+}
 .gabung {
   font-size: 29px;
   margin-top: 40px;
@@ -66,21 +140,21 @@ c {
   height: 250px;
 }
 #text11 {
-    margin-bottom: 0px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 200%;
-    letter-spacing: 200%;
-    text-align: justify;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 200%;
+  letter-spacing: 200%;
+  text-align: justify;
 }
 
-#fab  {
+#fab {
   height: 60px;
   width: 60px;
   margin-left: -150px;
   margin-top: -10px;
 }
-#fab1  {
+#fab1 {
   height: 60px;
   width: 60px;
   margin-left: -150px;
@@ -95,21 +169,21 @@ c {
 #btn {
   margin-top: 0px;
   margin-left: 0px;
-  height:0px;
+  height: 0px;
   width: 0px;
 }
 #k {
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-left: 50px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
-#fab3  {
+#fab3 {
   height: 60px;
   width: 60px;
   margin-left: 750px;
   margin-top: 150px;
 }
-#fab4  {
+#fab4 {
   height: 60px;
   width: 60px;
   margin-left: 750px;
@@ -140,10 +214,10 @@ c {
   height: 0px;
   width: 0px;
 }
-#k1{
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-left: 50px;
+#k1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
 .sosmed1 {
   background-color: white;
@@ -156,7 +230,7 @@ c {
 .btn1 {
   margin-left: -70px;
   margin-bottom: -10px;
-  margin-top: -100px
+  margin-top: -100px;
   opacity: 0;
   height: 60px;
   width: 60px;
@@ -204,16 +278,16 @@ c {
   text-align: left;
   z-index: 100000;
 }
-  #text {
-    margin-bottom: -70px;
-    font-family: "Times New Roman", Times, serif;
-    text-align: justify;
-    letter-spacing: -0.5px;
-    line-height: 150%;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  j {
+#text {
+  margin-bottom: -70px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  letter-spacing: -0.5px;
+  line-height: 150%;
+  font-size: 25px;
+  font-weight: bold;
+}
+j {
   font-size: 25px;
   font-weight: bold;
 }
@@ -266,11 +340,11 @@ c {
   font-size: 13px;
 }
 .jumbotron {
-    background-image: url(image/photo1649215914a.jpeg);
-    background-size: cover;
-    margin-top: 0px;
-    height: 530px;
-    text-align: center;
+  background-image: url(image/photo1649215914a.jpeg);
+  background-size: cover;
+  margin-top: 0px;
+  height: 530px;
+  text-align: center;
 }
 
 .jumbotron .container {
@@ -308,100 +382,115 @@ c {
   font-weight: 700;
 }
 .video {
-    margin:0 10px 4px 0;
-    float:left;
-    width: 305px;
-    height: 250px;
-  }
+  margin: 0 10px 4px 0;
+  float: left;
+  width: 305px;
+  height: 250px;
+}
 @media (min-width: 992px) {
+  #text1x {
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 20px;
+  }
+  #text19 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 25px !important;
+  }
+  #ekspedisi {
+    font-size: 30px;
+    text-color: black;
+  }
   .page-section-heading2 {
-  background-color: #bb0a1e;
-  background-size: cover;
-  font-size: 40px;
-  height: 50px;
-  text-align: center !important;
-  z-index: 100000;
-}
+    background-color: #bb0a1e;
+    background-size: cover;
+    font-size: 40px;
+    height: 50px;
+    text-align: center !important;
+    z-index: 100000;
+  }
   .page-section-heading {
-  background-color: #bb0a1e;
-  background-size: cover;
-  font-size: 40px;
-  height: 50px;
-  text-align: center;
-  z-index: 100000;
-}
+    background-color: #bb0a1e;
+    background-size: cover;
+    font-size: 40px;
+    height: 50px;
+    text-align: center;
+    z-index: 100000;
+  }
   .img-fluid1 {
-  width: 300px;
-  height: 300px;
-  margin-left: auto;
-  margin-bottom: auto;
-}
- .img-fluid2 {
-  width: 350px !important;
-  height: 250px !important;
-  margin-left: auto;
-  margin-bottom: auto;
-} 
-.img-fluid3 {
-  width: 370px;
-  height: 290px !important;
-  margin-left: auto;
-  margin-bottom: auto;
-}
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-bottom: auto;
+  }
+  .img-fluid2 {
+    width: 350px !important;
+    height: 250px !important;
+    margin-left: auto;
+    margin-bottom: auto;
+  }
+  .img-fluid3 {
+    width: 370px;
+    height: 290px !important;
+    margin-left: auto;
+    margin-bottom: auto;
+  }
   #text5 {
-     font-size: 25px;
+    font-size: 25px;
     line-height: 30px;
   }
   g {
     margin-left: 0px;
   }
   .img-fluid2 {
-  height: 250px;
-  width: auto;
-}
+    height: 250px;
+    width: auto;
+  }
   #harga {
-  text-align: left;
-}
+    text-align: left;
+  }
   #text1 {
     font-size: 25px;
+    line-height: 25px !important;
   }
   x {
     margin-left: 43px;
   }
   #Close {
-  font-size: 30px;
-  margin-left: 400px;
-}
-.close-button {
-  margin-top: 30px;
-}
+    font-size: 30px;
+    margin-left: 400px;
+  }
+  .close-button {
+    margin-top: 30px;
+  }
   .jumbotron .display-5 {
-  color: white;
-  font-weight: 100%;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
-  font-size: 40px;
-  margin-bottom: 30px;
-  font-weight: bold;
-}
-.jumbotron::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  position: absolute;
-  bottom: 0;
-}
+    color: white;
+    font-weight: 100%;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  .jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+  }
   .video {
-    margin:0 10px 4px 0;
-    float:left;
+    margin: 0 10px 4px 0;
+    float: left;
     width: 560px;
     height: 400px;
   }
   j {
-  font-size: 40px;
-  font-weight: bold;
-}
+    font-size: 40px;
+    font-weight: bold;
+  }
   .ig {
     margin-left: 5px;
     font-size: 30px;
@@ -411,7 +500,7 @@ c {
     height: 200px;
     display: block;
     margin-top: -100px;
-    margin-left: 100px;
+    margin-left: -100px;
     line-height: 3px;
   }
   #img1 {
@@ -419,7 +508,7 @@ c {
     height: 80px;
     display: block;
     margin-top: -70px;
-    margin-left: auto;
+    margin-left: -170px;
     margin-right: auto;
     line-height: 3px;
   }
@@ -427,8 +516,8 @@ c {
     width: 250px;
     height: 250px;
     display: block;
-    margin-top: -85px;
-    margin-left: -5px;
+    margin-top: -330px;
+    margin-left: 380px;
     line-height: 3px;
   }
   #img3 {
@@ -436,7 +525,7 @@ c {
     height: 100px;
     display: block;
     margin-top: -50px;
-    margin-left: -30px;
+    margin-left: -50px;
     margin-right: auto;
     line-height: 3px;
   }
@@ -445,7 +534,7 @@ c {
     height: 150px;
     display: block;
     margin-top: -100px;
-    margin-left: -70px;
+    margin-left: -0px;
     margin-right: auto;
     line-height: 3px;
   }
@@ -454,7 +543,7 @@ c {
     height: 150px;
     display: block;
     margin-top: -50px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-right: auto;
     line-height: 3px;
   }
@@ -546,7 +635,7 @@ c {
     background-image: url(image/photo1649215914a.jpeg);
     background-size: cover;
     margin-top: 0px;
-    height: 590px;
+    height: 650px;
     text-align: center;
   }
 
@@ -594,16 +683,15 @@ c {
     margin-top: 0px;
   }
   #text20 {
-
-  text-align: justify;
-  font-size: 30px;
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 50px;
-}
-y {
-  font-size: 25px;
-  margin-left: 20px;
-}
+    text-align: justify;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 50px;
+  }
+  y {
+    font-size: 25px;
+    margin-left: 20px;
+  }
   z {
     margin-left: 0px;
   }
