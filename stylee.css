@@ -63,34 +63,37 @@ o {
   font-size: 12px;
 }
 #ws {
-  margin-left: 4px !important;
+  margin-left: -40px !important;
   margin-top: 10px;
   width: 30px;
   height: 30spx;
 }
 #ig {
-  margin-left: 4px !important;
+  margin-left: -40px !important;
   margin-top: 10px;
   width: 30px;
   height: 30px;
 }
 #tt {
-  margin-left: 4px !important;
+  margin-left: -40px !important;
   margin-top: 10px;
   width: 30px;
   height: 30px;
 }
 #wa {
+  margin-left: -40px !important;
   margin-top: 10px;
   width: 30px;
   height: 30px;
 }
 #sp {
+  margin-left: -40px !important;
   margin-top: 10px;
   width: 30px;
   height: 30px;
 }
 #tp {
+  margin-left: -40px !important;
   margin-top: 10px;
   width: 30px;
   height: 30px;
@@ -543,16 +546,19 @@ j {
     height: 45px;
   }
   #wa {
+    margin-left: 5px !important;
     margin-top: 10px;
     width: 55px;
     height: 55px;
   }
   #sp {
+    margin-left: 5px !important;
     margin-top: 10px;
     width: 55px;
     height: 55px;
   }
   #tp {
+    margin-left: 5px !important;
     margin-top: 10px;
     width: 55px;
     height: 55px;
@@ -868,7 +874,7 @@ j {
     background-image: url(image/photo1649215914a.jpeg);
     background-size: cover;
     margin-top: 0px;
-    height: 600px;
+    height: 645px;
     text-align: center;
   }
 
