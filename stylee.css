@@ -29,13 +29,13 @@ body {
   position: relative;
   margin: 0 auto;
   top: 0px;
-  left: 0px;
+  left: -40px;
   width: 1100px;
   height: 1500px;
   overflow: hidden;
   visibility: hidden;
   margin-top: 10px;
-  margin-bottom: 2500px;
+  margin-bottom: 250px;
 }
 .jssorl-009-spin {
   position: absolute;
@@ -59,7 +59,7 @@ body {
   right: -100px;
 }
 o {
-  font-size: 5px;
+  font-size: 10px;
 }
 #ws {
   margin-left: 4px !important;
