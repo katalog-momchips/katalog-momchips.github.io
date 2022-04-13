@@ -430,6 +430,7 @@ j {
   background-image: url(image/photo1649215914a.jpeg);
   background-size: cover;
   margin-top: 0px;
+  width: 420px;
   height: 570px;
   text-align: center;
 }
@@ -874,6 +875,7 @@ j {
     background-image: url(image/photo1649215914a.jpeg);
     background-size: cover;
     margin-top: 0px;
+    width: auto;
     height: 645px;
     text-align: center;
   }
