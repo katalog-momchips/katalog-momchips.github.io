@@ -99,7 +99,7 @@ o {
   height: 30px;
 }
 
-#harga {
+#harga2 {
   text-align: left;
 }
 .galeri {
@@ -184,6 +184,7 @@ y {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   line-height: 35px;
+  margin-bottom: -70px;
 }
 c {
   margin-left: 33x;
@@ -211,19 +212,63 @@ g {
 #text1 {
   font-size: 15px;
   margin-left: 10px;
+  line-height: 10px;
+}
+#harga {
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 10px;
+}
+#barang {
+  font-size: 15px;
+  margin-left: 10px;
   line-height: 25px;
+  margin-top: -20px;
+}
+#harga1 {
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 20px;
+  margin-top: -10px;
+}
+#barang1 {
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 25px;
+  margin-top: -25px;
+  margin-bottom: -30px !important;
+}
+jk {
+  margin-left: 15px;
+}
+jk1 {
+  margin-left: 19px;
+}
+#text111 {
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 20px;
+  margin-top: -0px;
 }
 m {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 #text1x {
   font-size: 15px;
   line-height: 25px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 #text5 {
-  line-height: 30px;
+  margin-top: -10px;
+  margin-left: 10px;
+  line-height: 20px;
   font-size: 15px;
+}
+#text15 {
+  margin-top: -25px;
+  font-size: 15px;
+  line-height: 25px;
+  margin-left: 10px;
 }
 .gabung {
   font-size: 29px;
@@ -476,6 +521,45 @@ j {
   height: 250px;
 }
 @media (min-width: 992px) {
+  jk {
+    margin-left: 0px;
+  }
+  jk1 {
+    margin-left: 0px;
+  }
+  m {
+    margin-left: 20px;
+  }
+  #text111 {
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 40px;
+    margin-top: -10px;
+  }
+  #harga {
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 40px;
+  }
+  #barang {
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 25px;
+    margin-top: -20px;
+  }
+  #harga1 {
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 40px;
+    margin-top: 10px;
+  }
+  #barang1 {
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 25px;
+    margin-top: -25px;
+    margin-bottom: -30px !important;
+  }
   .slides {
     cursor: default;
     position: relative;
@@ -639,7 +723,7 @@ j {
   #text1x {
     font-size: 25px;
     line-height: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
   }
   #text19 {
     font-size: 35px;
@@ -700,7 +784,7 @@ j {
     height: 250px;
     width: auto;
   }
-  #harga {
+  #harga2 {
     text-align: left;
   }
   #text1 {
@@ -928,9 +1012,11 @@ j {
     font-size: 30px;
     font-family: "Times New Roman", Times, serif;
     line-height: 50px;
+    margin-bottom: 40px;
   }
   y {
     font-size: 25px;
+    line-height: 40px;
     margin-left: 20px;
   }
   z {
