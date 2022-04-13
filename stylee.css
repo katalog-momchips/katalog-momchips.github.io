@@ -434,6 +434,14 @@ m {
   text-align: left;
   z-index: 100000;
 }
+.page-section-heading10 {
+  background-color: #bb0a1e;
+  background-size: cover;
+  font-size: 30px;
+  height: 50px;
+  text-align: left;
+  z-index: 100000;
+}
 .page-section-heading2 {
   background-color: #bb0a1e;
   background-size: cover;
@@ -602,7 +610,7 @@ j {
     right: 30px;
   }
   o {
-    font-size: 15px;
+    font-size: 10px;
   }
   #ws {
     margin-left: 6px !important;
