@@ -286,7 +286,7 @@ m {
   font-weight: bold;
   line-height: 200%;
   letter-spacing: 200%;
-  text-align: justify !important;
+  text-align: left !important;
 }
 
 #fab {
