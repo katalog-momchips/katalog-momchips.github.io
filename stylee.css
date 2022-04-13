@@ -282,11 +282,11 @@ m {
 }
 #text11 {
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   line-height: 200%;
   letter-spacing: 200%;
-  text-align: justify;
+  text-align: justify !important;
 }
 
 #fab {
@@ -907,7 +907,7 @@ j {
     font-weight: bold;
     line-height: 200%;
     letter-spacing: 200%;
-    text-align: center;
+    text-align: center !important;
   }
   .about {
     background-color: #fff;
@@ -1016,7 +1016,7 @@ j {
   }
   y {
     font-size: 25px;
-    line-height: 40px;
+    line-height: 50px;
     margin-left: 20px;
   }
   z {
