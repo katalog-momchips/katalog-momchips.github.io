@@ -9,6 +9,15 @@ header.sticky {
 body {
   background-color: #fff;
 }
+.modal-body {
+  height: 900px;
+  margin-top: 50px;
+}
+.produk {
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 80px !important;
+}
 .slides {
   cursor: default;
   position: relative;
@@ -785,10 +794,10 @@ j {
   }
   #Close {
     font-size: 30px;
-    margin-left: 400px;
+    margin-left: 350px;
   }
   .close-button {
-    margin-top: 30px;
+    margin-top: 60px !important;
   }
   .jumbotron .display-5 {
     color: white;
