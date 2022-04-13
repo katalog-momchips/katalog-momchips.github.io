@@ -9,6 +9,7 @@ header.sticky {
 body {
   background-color: #fff;
 }
+
 .slides {
   cursor: default;
   position: relative;
@@ -427,14 +428,6 @@ m {
   z-index: 100000;
 }
 .page-section-heading {
-  background-color: #bb0a1e;
-  background-size: cover;
-  font-size: 30px;
-  height: 50px;
-  text-align: left;
-  z-index: 100000;
-}
-.page-section-heading10 {
   background-color: #bb0a1e;
   background-size: cover;
   font-size: 30px;
