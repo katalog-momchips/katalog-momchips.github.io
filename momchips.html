@@ -94,6 +94,112 @@ width: 40px; background: #000000; -webkit-border-radius:10px; border-radius: 10p
             <a class="nav-item nav-link active" href="#testimoni">TESTIMONI</a>
             <a class="nav-item nav-link active" href="#galerry">GALERI</a>
             <a class="nav-item nav-link active" href="#kirim & komplain">KIRIM & KOMPLAIN</a>
+            <style>
+#goog-gt-tt {
+                 display:none !important;
+                }
+                .goog-te-banner-frame {
+                 display:none !important;
+                }
+                .goog-te-menu-value:hover {
+                 text-decoration:none !important;
+                }
+                body {
+                 top:0 !important;
+                }
+                #google_translate_element2 {
+                 display:none!important;
+                }
+                .lg{
+                 width: 135px !important;
+                 height: 30px;
+                 margin-top: -20px;
+                 font-size: 20px;
+                 margin-bottom: 20px;
+                }
+                @media (min-width: 992px) {
+                .lg{
+                 width: 125px;
+                 height: 30px;
+                 margin-top: 5px;
+                 font-size: 15px;
+                 margin-bottom: 0px;
+                }
+              }
+              </style>
+              <body>
+               <br>
+               <select onchange="doGTranslate(this);" class="lg"> 
+                    <6></6>                    <option class="text-uppercase" value="id|id" >INDONESIA</option>                 
+                <option value="id|en" ></i> ENGLISH</option>
+                  </select>
+             
+                  <div id="google_translate_element2"></div>
+                 
+                  <br>
+                  <br>
+                  <!-- javascript -->
+               <script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+               <script type="text/javascript"> 
+                function googleTranslateElementInit2() {
+                 new google.translate.TranslateElement(
+                 {
+                  pageLanguage: 'id',
+                  autoDisplay: false
+                 },
+             
+                 'google_translate_element2');
+                }
+             
+                function GTranslateFireEvent(element,event){
+                 try{
+                  if(document.createEventObject){
+                   var evt=document.createEventObject();
+                   element.fireEvent('on'+event,evt)
+                  }   
+                  else{
+                   var evt=document.createEvent('HTMLEvents');
+                   evt.initEvent(event,true,true);
+                   element.dispatchEvent(evt)
+                  }
+                 }
+                 catch(e){}
+                }
+             
+                function doGTranslate(lang_pair){
+                 if(lang_pair.value)lang_pair=lang_pair.value;
+                 if(lang_pair=='')return;
+                  var lang=lang_pair.split('|')[1];
+                  var teCombo;
+                  var sel=document.getElementsByTagName('select');
+                 for(var i=0;i<sel.length;i++)
+                  if(sel[i].className=='goog-te-combo')teCombo=sel[i];
+                  if(document.getElementById('google_translate_element2')==null||document.getElementById('google_translate_element2').innerHTML.length==0||teCombo.length==0||teCombo.innerHTML.length==0)
+                  {
+                   setTimeout(function(){doGTranslate(lang_pair)},500)
+                  }
+                  else{
+                   teCombo.value=lang;GTranslateFireEvent(teCombo,'change');
+                   GTranslateFireEvent(teCombo,'change')
+                  }
+                }
+                $(window).scroll(function() {
+
+    if ($(this).scrollTop() > 60){  
+        $('.main-header').addClass("sticky-header");
+    }
+    else{
+        $('.main-header').removeClass("sticky-header");
+    }
+
+    if ($(this).scrollTop() > 160){  
+        $('.main-header').addClass("sticky");
+    }
+    else{
+        $('.main-header').removeClass("sticky");
+    }
+});
+               </script>
           </div>
         </div>
       </nav>
@@ -528,6 +634,7 @@ width: 40px; background: #000000; -webkit-border-radius:10px; border-radius: 10p
         </div>
       </div>
     </div>
+    
    <section class="page-section portfolio" id="keuntungan">
       <div class="container">
           <br><br /><br />
@@ -1012,8 +1119,6 @@ width: 40px; background: #000000; -webkit-border-radius:10px; border-radius: 10p
        <h5 class=" text-uppercase mb-4" style="color: #000000" id="text1x"><i class="fa-solid fa-chevron-right"></i><m>produk rusak berat/tidak bisa <jk1>dimakan sama sekali</jk1></m></h5>
        <h5 class=" text-uppercase mb-4" style="color: #000000" id="text1x"><i class="fa-solid fa-chevron-right"></i><m>produk sudah dalam masa <jk1>expired/kadaluarsa</jk1></m></h5>
 </div></section><br><br><br>
-
-
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
