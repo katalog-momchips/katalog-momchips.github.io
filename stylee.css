@@ -1,12 +1,10 @@
 header {
   position: sticky;
-  width: 100%;
   top: 0;
   z-index: 100000;
 }
 header.sticky {
   background: #fff;
-  width: 150%;
 }
 body {
   background-color: #fff !important;
